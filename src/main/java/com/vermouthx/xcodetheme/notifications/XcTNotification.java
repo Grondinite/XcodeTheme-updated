@@ -20,7 +20,7 @@ public class XcTNotification {
 
     private static final String NOTIFICATION_GROUP_ID = "Xcode Theme";
     private static final String DONATE_LINK = "https://www.buymeacoffee.com/nszihan";
-    private static final String GITHUB_LINK = "https://github.com/WhiteVermouth/XcodeTheme";
+    private static final String GITHUB_LINK = "https://github.com/Grondinite/XcodeTheme-updated";
     private static final Icon icon = IconLoader.getIcon("/icons/logo.png", XcTNotification.class);
 
     private static final NotificationGroup NOTIFICATION_GROUP = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID);

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+
+- Fix palette for Idea 2024.x.x
+- Update palette based on Xcode 16.x 
+
 ## 1.7.0
 
 - Fix RunWidget icon color

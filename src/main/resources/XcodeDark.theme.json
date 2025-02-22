@@ -1,14 +1,14 @@
 {
   "name": "Xcode Dark",
   "dark": true,
-  "author": "Zihan Ma",
+  "author": "Thomas Dion-Grondin, Zihan Ma",
   "editorScheme": "/XcodeDark.xml",
   "colors": {
-    "primary": "#212327",
-    "secondary": "#343333",
-    "activeSelection": "#2f55b1",
-    "inactiveSelection": "#515b70",
-    "borderColor": "#121212"
+    "primary": "#232322",
+    "secondary": "#292a2f",
+    "activeSelection": "#3854AB",
+    "inactiveSelection": "#303238",
+    "borderColor": "#303238"
   },
   "ui": {
     "*": {
@@ -19,7 +19,7 @@
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#474545"
+      "separatorColor": "borderColor"
     },
     "ActionButton": {
       "hoverBorderColor": "borderColor",
@@ -80,11 +80,11 @@
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
-      "background": "secondary"
+      "background": "primary"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "primary",
-      "background": "secondary",
+      "underlinedTabBackground": "secondary",
+      "background": "#20201F",
       "underlineHeight": 2
     },
     "Link": {
@@ -148,8 +148,8 @@
         "selectedBackground": "#131313"
       },
       "Header": {
-        "background": "#3c3b3b",
-        "inactiveBackground": "secondary"
+        "background": "primary",
+        "inactiveBackground": "primary"
       }
     },
     "Tree": {
